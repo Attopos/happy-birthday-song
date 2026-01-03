@@ -1,0 +1,8 @@
+let i = 0
+const name = "Aaron"
+while (i < 2) { //This will repeat two times, not one. First is i=0 and second is i=1.
+	console.log("Happy birthday to you")
+	i = i + 1
+}
+console.log("Happy birthday " + "dear " + name)
+console.log("Happy birthday to you!")
